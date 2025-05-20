@@ -1,52 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Portfolio</title>
-</head>
-<body>
-  <h1>Welcome to My Portfolio</h1>
-</body>
-</html>
     <meta charset="UTF-8">
-    <title>Graphic Design Portfolio</title>
+    <title>My Graphic Design Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <nav>
+        <div class="logo">🎨 My Portfolio</div>
+        <ul>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#uiux">UI/UX</a></li>
+            <li><a href="#cv">CVs</a></li>
+            <li><a href="#posts">Posts</a></li>
+        </ul>
+    </nav>
 
-    <!-- Certificate Designs -->
-    <section>
-        <h2>Certificate Designs</h2>
-        <a href="certificate-designs/4th place.png" target="_blank">4th Place</a><br>
+    <header class="hero">
+        <h1>Welcome to My Graphic Design Portfolio</h1>
+        <p>Explore my creative work across multiple design categories.</p>
+    </header>
+
+    <main>
+       <section id="certificates">
+    <h2>📜 Certificate Designs</h2>
+    <div class="gallery">
+        <a href="certificate-designs/4th place.png" target="_blank">
+            <img src="certificate-designs/4th place.png" alt="4th Place Certificate">
+        </a>
         <a href="certificate-designs/Participation.png" target="_blank">
             <img src="certificate-designs/Participation.png" alt="Participation Certificate">
         </a>
-    </section>
-
-    <!-- UI/UX Designs -->
-    <section>
-        <h2>UI/UX Designs</h2>
-        <a href="ui-ux-designs/ui1.jpg" target="_blank">
-            <img src="ui-ux-designs/Group 62.png" alt="UI Design 1">
+        <a href="certificate-designs/F O R V O L U N T E E R I N G (3).png" target="_blank">
+            <img src="certificate-designs/F O R V O L U N T E E R I N G (3).png" alt="Volunteering Certificate 3">
         </a>
-        <a href="ui-ux-designs/ux2.png" target="_blank">
-            <img src="ui-ux-designs/New vacancy page (1).png" alt="UX Design 2">
+        <a href="certificate-designs/F O R V O L U N T E E R I N G (4).png" target="_blank">
+            <img src="certificate-designs/F O R V O L U N T E E R I N G (4).png" alt="Volunteering Certificate 4">
         </a>
-    </section>
+    </div>
+</section>
 
-    <!-- CV Designs -->
-    <section>
-        <h2>CV Designs</h2>
-        <a href="cv-designs/karate CV NEW.docx" target="_blank">Download CV (DOCX)</a>
-        <a href="cv-designs/Professional CV Resume.pdf" target="_blank">View CV (PDF)</a>
-    </section>
 
-    <!-- Post Designs -->
-    <section>
-        <h2>Post Designs</h2>
-        <a href="post-designs/Navy Blue Modern Background Poster.png" target="_blank">
-            <img src="post-designs/Navy Blue Modern Background Poster.png" alt="Post 1">
-        </a>
-    </section>
+        <section id="uiux">
+            <h2>💻 UI/UX Designs</h2>
+            <div class="gallery">
+                <img src="ui-ux-designs/Group 62.png" alt="UI Design 1">
+                <img src="ui-ux-designs/New vacancy page (1).png" alt="UX Design 2">
+            </div>
+        </section>
 
+        <section id="cv">
+            <h2>📄 CV Designs</h2>
+            <div class="gallery">
+                <a href="cv-designs/karate CV NEW.docx" target="_blank">Download CV (DOCX)</a>
+                <a href="cv-designs/Professional CV Resume.pdf" target="_blank">View CV (PDF)</a>
+            </div>
+        </section>
+
+        <section id="posts">
+            <h2>📢 Post Designs</h2>
+            <div class="gallery">
+                <img src="post-designs/Navy Blue Modern Background Poster.png" alt="Post 1">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p> 2025 My Portfolio | Designed by Me</p>
+    </footer>
 </body>
 </html>
